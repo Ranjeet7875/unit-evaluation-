@@ -1,0 +1,173 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+#file-organizer{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(17, 197, 137, 0.797);
+
+}
+#search-bar{
+    font-size: 18px;
+    border: none;
+    text-align: center; 
+    border-radius: 10px;
+    width: 400px;
+    height: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#sidebar{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#sidebar h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#folders-container{
+    margin: 10px;
+    padding-left: 40px;
+    width: 200px;
+    position: static;
+    left: 100px;
+    gap:20px;
+
+}
+#main-content{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+
+    margin-bottom: \20px;
+
+}
+#file-action{
+    margin-bottom: 20px;
+}
+#file-action input{
+    padding: 5px;
+    margin-right: 10px;
+    width: 300px;
+}
+#file-action button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#file-list{
+    padding-left: 20px;
+    width: 80%;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#bin-container{
+    position: sticky;
+    top:0%;
+    left: 0%;
+    width: 300px;
+    margin-left: 20px;
+    padding: 20px;
+}
+#bin-container h2{
+    margin-bottom: 15px;
+}
+#bin-files{
+    margin-bottom:20px;
+}
+#bin-container button{
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.05);
+    align-items: center;
+    justify-content: center;
+}
+.modal-contact{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.modal button{
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.folder{
+    width: 20px;
+    height: 2   0px;
+}
+.file{
+    width: 200px;
+    height: 150px;
+}
+.fileimg{
+    width: 100px;
+}
+#sort-btn{
+    margin-left: 10px;
+    width: 100px;
+    height: 35px;
+    font-weight: 600;
+    background-color: rgb(10, 1, 18);
+    color: rgb(255, 255, 255);
+    border: #ccc;
+    font-size: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#choose-file{
+    margin: 10px;
+    padding-left: 20px;
+}
+.file-name{
+    font-size: 20px;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+    width: 100px;
+
+}
+.files{
+    margin-top: 20px;
+
+    font-size: 20px;
+}
